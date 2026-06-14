@@ -37,5 +37,9 @@ public class Main {
                 "15/06/2026",
                 "08:00",
                 4));
+
+        int asientoBuscado = 3;
+        boolean encontrado = false;
+
     }
 }
