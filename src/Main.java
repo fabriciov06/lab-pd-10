@@ -43,6 +43,10 @@ public class Main {
         int asientoBuscado = 3;
         boolean encontrado = false;
 
+        System.out.println("---------------------------------");
+        System.out.println("RESULTADO DE LA BUSQUEDA");
+        System.out.println("---------------------------------");
+
         Iterator<Map.Entry<Integer, Pasajero>> iterator =
                 pasajeros.entrySet().iterator();
 
