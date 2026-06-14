@@ -64,6 +64,13 @@ public class Main {
             }
         }
 
+        if (!encontrado) {
+            System.out.println(
+                    "No existe pasajero en el asiento "
+                            + asientoBuscado
+            );
+        }
+
 
     }
 }
