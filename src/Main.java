@@ -1,4 +1,6 @@
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -41,5 +43,15 @@ public class Main {
         int asientoBuscado = 3;
         boolean encontrado = false;
 
+        Iterator<Map.Entry<Integer, Pasajero>> iterator =
+                pasajeros.entrySet().iterator();
+
+        while (iterator.hasNext()) {
+
+            Map.Entry<Integer, Pasajero> entry =
+                    iterator.next();
+
+            Pasajero pasajero = entry.getValue();
+        }
     }
 }
