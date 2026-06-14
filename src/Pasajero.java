@@ -39,4 +39,16 @@ public class Pasajero {
     public int getAsiento() {
         return asiento;
     }
+
+    @Override
+    public String toString() {
+        return "Pasajero{" +
+                "nombre='" + nombre + '\'' +
+                ", dni='" + dni + '\'' +
+                ", destino='" + destino + '\'' +
+                ", fecha='" + fecha + '\'' +
+                ", hora='" + hora + '\'' +
+                ", asiento=" + asiento +
+                '}';
+    }
 }
