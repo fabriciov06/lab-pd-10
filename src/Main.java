@@ -52,6 +52,18 @@ public class Main {
                     iterator.next();
 
             Pasajero pasajero = entry.getValue();
+
+
+            if (pasajero.getAsiento() == asientoBuscado) {
+
+                System.out.println("PASAJERO ENCONTRADO");
+                System.out.println(pasajero);
+
+                encontrado = true;
+                break;
+            }
         }
+
+
     }
 }
